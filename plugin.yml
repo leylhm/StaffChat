@@ -1,0 +1,15 @@
+name: SC Chat
+main: GuilhermePLUGNER\StaffChat\Main
+version: "1.0"
+author: GuilhermePLUGNER
+api: 2.0.0
+
+commands:
+  staffchat:
+    description: SC By GuilhermePLUGNER
+    permission: sc.chat
+    aliases: [sc]
+
+permissions:
+  sc.chat:
+    default: op
